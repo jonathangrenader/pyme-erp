@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# pyme-erp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the main README file for the pyme-erp project.
 
-## Available Scripts
+## Project Overview
+A modular web application (ERP) designed for small and medium-sized businesses (PYMES) to manage stock, suppliers, price lists, and clients. It is built with scalability in mind to expand into a full-fledged ERP system including invoicing, accounting, and more.
 
-In the project directory, you can run:
+## Key Features
+- Multi-company and multi-user support.
+- Granular permissions module for company administrators.
+- SUPERADMIN role for developer-level control (module activation, custom features).
+- System-wide audit module.
+- QR/Barcode scanning for stock management (mobile-first approach).
+- Data import module (articles, clients, suppliers).
+- Database backup strategy.
+- Highly responsive and mobile-adapted UI/UX.
 
-### `npm start`
+## Technology Stack
+- **Frontend:** React (with TypeScript), Bootstrap, React Router.
+- **Backend/Database/Auth:** Firebase (Firestore, Authentication, Functions, Cloud Storage).
+- **Deployment:** Firebase Hosting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
+More detailed instructions will be provided in the `DEPLOYMENT_GUIDE.md` and `ARCHITECTURE.md` files.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Documentation
+- [Architecture Overview](ARCHITECTURE.md)
+- [Data Model](DATA_MODEL.md)
+- [Project Roadmap](ROADMAP.md)
+- [Subscription Tiers & Monetization](SUBSCRIPTION_TIERS.md)
+- [Security Considerations](SECURITY.md)
+- [Backup Strategy](BACKUP_STRATEGY.md)
+- [Import Module Design](IMPORT_MODULE.md)
+- [Cost Considerations](COST_CONSIDERATIONS.md)
+- [Deployment Guide](DEPLOYMENT_GUIDE.md)
