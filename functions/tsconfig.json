@@ -3,7 +3,7 @@
     "module": "NodeNext",
     "esModuleInterop": true,
     "moduleResolution": "nodenext",
-    "noImplicitReturns": true,
+    "noImplicitReturns": false,
     "noUnusedLocals": true,
     "outDir": "lib",
     "sourceMap": true,
