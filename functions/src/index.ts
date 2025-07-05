@@ -13,7 +13,10 @@ import * as logger from "firebase-functions/logger";
 
 admin.initializeApp();
 
-export const helloWorld = functions.https.onRequest({region: "southamerica-east1"}, (request, response) => {
-  logger.info("Hello logs!", {structuredData: true});
-  response.send("Hello from Firebase!");
-});
+export const helloWorld = functions.https.onRequest(
+  {region: "southamerica-east1"},
+  (request, response) => {
+    logger.info("Hello logs!", {structuredData: true});
+    response.send("Hello from Firebase!");
+  }
+);
