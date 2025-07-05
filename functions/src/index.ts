@@ -26,7 +26,10 @@ import * as logger from "firebase-functions/logger";
 // this will be the maximum concurrent request count.
 setGlobalOptions({maxInstances: 10});
 
-export const helloWorld = onRequest({ region: "southamerica-east1" }, (request, response) => {
-  logger.info("Hello logs!", {structuredData: true});
-  response.send("Hello from Firebase!");
-});
+export const helloWorld = onRequest(
+  {region: "southamerica-east1"},
+  (request, response) => {
+    logger.info("Hello logs!", {structuredData: true});
+    response.send("Hello from Firebase!");
+  }
+);
